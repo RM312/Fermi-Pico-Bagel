@@ -1,4 +1,5 @@
-original_number = '321'  #You can write any number
+import random
+original_number = str(random.randint(1,999))  #Choose any random number between 1 to 999
 while True :
     output = []
     guess_number = input('\nGuess The Number: ')
